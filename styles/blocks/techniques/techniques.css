@@ -1,0 +1,18 @@
+.techniques {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .techniques__content_table {
+    text-align: center;
+    padding-top: 50px;
+   }
+
+  .techniques__content_table_row {
+    justify-content: space-around;
+  }
+

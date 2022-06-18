@@ -1,0 +1,60 @@
+@import url(../../themes/dark-theme.css);
+
+.footer {
+    background-image: linear-gradient(black, rgb(36, 36, 36));
+    min-height: 350px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  
+  .footer__logo {
+    width: fit-content;
+  }
+  
+  .footer__content_copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 711px;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  
+  .footer__content_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .content__content_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .footer__content_copyright_link {
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  
+  .footer__content_header {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .footer__content_link {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer__content_link a {
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+  }

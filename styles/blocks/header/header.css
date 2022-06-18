@@ -1,0 +1,65 @@
+@import url(./__animation/header__animation.css);
+
+.header {
+    min-height: 756px;
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: relative;
+    padding: 30px 64px;
+    overflow: hidden;
+  }
+  
+  .header__logo {
+    width: fit-content;
+  }
+  
+  .header__title {
+    width: 730px;
+    z-index: 2;
+    text-align: left;
+    font-size: 102px;
+    line-height: 96px;
+    font-weight: bold;
+  }
+  
+  .header__subtitle {
+    width: 388px;
+    z-index: 2; 
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .header__subtitle_link {
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  
+  .header__main-illistration {
+    width: 765px;
+    height: 608px;
+    background-image: url(../../../images/two_again.png);
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .header__square-pic {
+    width: 568px;
+    height: 568px;
+    background-color: #2f80ed;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    top: 64px;
+  }
+
+  
